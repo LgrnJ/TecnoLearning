@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - TecnoLearning</title>
+    <link rel="stylesheet" href="css/Tarea.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="inicio">
+        <nav class="menu">
+            <h1 class="logo">TecnoLearning</h1>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Productos o Servicios</a></li>
+                <li><a href="#formulario-contacto">Contáctenos</a></li>
+            </ul>
+        </nav>
+
+        <section class="banner">
+            <div class="contenido-banner">
+                <a href="#servicios" class="boton"><span>Conoce nuestros cursos</span></a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="nosotros" class="seccion">
+            <h2>Nosotros</h2>
+            <p>
+                <b>TecnoLearning </b>es una institución educativa digital creada para enseñar
+                programación y computación a estudiantes colombianos de forma accesible,
+                práctica e interactiva.
+            </p>
+
+             <h3>Objetivo general</h3>
+             
+             <p> Establecer a TecnoLearning como una institución educativa digital capaz
+                de brindar una formación de calidad, mediante una enseñanza excelente
+                que responda a las necesidades de sus estudiantes.
+            </p>
+
+              <h3>Misión</h3>
+              <p>
+                Ofrecer un modelo de educación accesible e interactivo para aprender
+                temas y herramientas digitales cada vez más importantes. Mediante los
+                recursos tecnológicos, cada estudiante podrá aprender con autonomía,
+                desde cualquier lugar y a su propio ritmo.
+              </p>
+
+              <h3>Visión</h3>
+              <p>
+                Convertirnos en una de las empresas educativas más influyentes de
+                Colombia, reconocida por formar estudiantes exitosos que contribuyan
+                al crecimiento del país y al desarrollo de tecnologías sostenibles
+                en beneficio de todas las personas.
+              </p>
+        </section>
+
+        <section id="servicios" class="seccion">
+            <h2>Productos o Servicios</h2>
+            <p><b>
+            Ofrecemos cursos virtuales para aprender tecnología desde cero y avanzar
+            a tu propio ritmo.</b>
+        </p>
+
+          <div class="galeria-servicios">
+
+    <article class="tarjeta-servicio">
+        <img
+            src="img/programacion-basica.png"
+            alt="Servicio de Programación básica"
+            class="imagen-servicio"
+        >
+        <div class="info-servicio">
+            <h3>Programación básica</h3>
+            <p>Aprende lógica, estructuras y los fundamentos necesarios para comenzar a programar.</p>
+        </div>
+    </article>
+
+    <article class="tarjeta-servicio">
+        <img
+            src="img/desarrollo-web.png"
+            alt="Servicio de Desarrollo web"
+            class="imagen-servicio"
+        >
+        <div class="info-servicio">
+            <h3>Desarrollo web</h3>
+            <p>Crea páginas utilizando HTML y CSS con estructuras claras y diseños atractivos.</p>
+        </div>
+    </article>
+
+    <article class="tarjeta-servicio">
+        <img
+            src="img/desarrollo-videojuegos.png"
+            alt="Servicio de Desarrollo de videojuegos"
+            class="imagen-servicio"
+        >
+        <div class="info-servicio">
+            <h3>Desarrollo de videojuegos</h3>
+            <p>Diseña escenarios y aprende a desarrollar mecánicas mediante programación.</p>
+        </div>
+    </article>
+
+    <article class="tarjeta-servicio">
+        <img
+            src="img/banner-tecnolearning.png"
+            alt="Servicio Ruta TecnoLearning"
+            class="imagen-servicio"
+        >
+        <div class="info-servicio">
+            <h3>Ruta TecnoLearning</h3>
+            <p>Avanza paso a paso por diferentes áreas mediante una ruta de aprendizaje organizada.</p>
+        </div>
+    </article>
+
+</div>
+        </section>
+
+        <section id="contacto" class="seccion">
+         <h2>Contacto</h2>
+
+         <p>
+            Comunícate con TecnoLearning para recibir información sobre nuestros
+            servicios educativos.
+         </p>
+
+            <ul class="datos-contacto">
+                <li><b>Teléfono:</b> +57 390 540 6423</li>
+                <li><b>Correo:</b> tecnolearning123@correo.com</li>
+                <li><b>Sitio web:</b> www.tecnolearning.edu.co</li>
+            </ul>
+
+          <p>
+           TecnoLearning es una institución digital, por lo que sus servicios y
+           atención se ofrecen de manera virtual.
+          </p>
+
+          <form id="formulario-contacto" class="formulario-contacto"
+             action= "mailto:jesustudy0@gmail.com" method="post" enctype="text/plain">
+             <h3>Contáctenos</h3>
+
+             <label for="nombre">Nombre</label>
+             <input type="text" id="nombre" name="nombre" required>
+
+             <label for="correo">Correo electrónico</label>
+             <input type="email" id="correo" name="correo" required>
+
+             <label for="asunto">Asunto</label>
+             <input type="text" id="asunto" name="asunto" required>
+
+             <label for="mensaje">Mensaje</label>
+             <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+             <button type="submit">Enviar datos</button>
+          </form>
+        </section>
+
+    </main>
+<footer>
+    <p>TecnoLearning - ¡Programación y computación para todos!
+
+    </p>
+    <p class="autor">Made by Nicolas González Sarmiento</p>
+</footer>
+
+</body>
+</html>
