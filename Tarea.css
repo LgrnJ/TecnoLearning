@@ -64,7 +64,7 @@ body {
 
 .banner {
     height: 500px;
-    background-image: url("../img/banner-logo-tecnolearning.png");
+    background-image: url("banner-logo-tecnolearning.png");
     background-size: cover;
     background-position: center;
     display: flex;
